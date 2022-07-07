@@ -13,9 +13,9 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  onselect(feature: string){
+  onSelect(feature: string){
     if(feature == 'education') this.router.navigate(['/education']);
-    
+    if(feature == 'work') this.router.navigate(['/work-experience']);
   }
 
 }

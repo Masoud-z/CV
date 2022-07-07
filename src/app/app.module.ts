@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { MainComponent } from './main/main.component';
 import { EducationComponent } from './main/education/education.component';
+import { WorkComponent } from './main/work/work.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { EducationComponent } from './main/education/education.component';
     HeaderComponent,
     FooterComponent,
     MainComponent,
-    EducationComponent
+    EducationComponent,
+    WorkComponent
   ],
   imports: [
     BrowserModule,
