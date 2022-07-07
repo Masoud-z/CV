@@ -8,6 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { MainComponent } from './main/main.component';
 import { EducationComponent } from './main/education/education.component';
 import { WorkComponent } from './main/work/work.component';
+import { LanguagesComponent } from './main/languages/languages.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { WorkComponent } from './main/work/work.component';
     FooterComponent,
     MainComponent,
     EducationComponent,
-    WorkComponent
+    WorkComponent,
+    LanguagesComponent
   ],
   imports: [
     BrowserModule,

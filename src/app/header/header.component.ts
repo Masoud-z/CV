@@ -16,6 +16,7 @@ export class HeaderComponent implements OnInit {
   onSelect(feature: string){
     if(feature == 'education') this.router.navigate(['/education']);
     if(feature == 'work') this.router.navigate(['/work-experience']);
+    if(feature == 'lan') this.router.navigate(['/languages']);
   }
 
 }
