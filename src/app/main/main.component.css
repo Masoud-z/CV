@@ -1,0 +1,33 @@
+.container{
+    margin-left: 1vw;
+  }
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.leftcolumn{
+    float: left;
+    width: 75%;
+
+}
+
+.leftcolumn h2{
+    margin-bottom: 2vh;
+}
+
+.leftcolumn h5{
+    margin-bottom: 1vh;
+}
+
+
+
+.rightcolumn{
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+
+}
