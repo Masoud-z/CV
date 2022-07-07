@@ -23,9 +23,19 @@
 
         <li class="show dropdown" ><a>About</a>
             <div class="dropdown-content">
-                <li><a>About me</a></li>
-                <li><a>Contact</a></li>
-                <li><a>Hobies</a></li>
+                <li>
+                    <a (click)="about('me')">
+                       About me
+                    </a>
+                </li>
+                <li><a (click)="about('contact')">
+                        Contact
+                    </a>
+                </li>
+                <li><a (click)="about('hobby')">
+                        Hobbies
+                    </a>
+                </li>
             </div>
         </li>
     </ul>
