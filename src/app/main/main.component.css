@@ -34,3 +34,44 @@ p{
     padding-left: 20px;
 
 }
+
+
+
+.card{
+    background-color: #39BAE8;
+    padding: 2vh 2vw;
+    margin-top: 4vh;
+    margin-right: 2vw;
+    border-radius: 3px;
+    transition: all 0.3s linear;
+}
+
+.card h3 {
+    color: #00303F;
+    transition: all 0.3s linear;
+}
+
+.card h2{
+    padding:4px 0;
+    transition: all 0.3s linear;
+}
+
+.card:hover{
+    box-shadow: 8px 8px 5px #D81159;
+}
+
+
+
+.card:hover h2{
+    border-bottom: #FF0000 solid 2px;
+}
+
+.card:hover h3{
+    border-bottom: #FF0000 solid 2px;
+}
+
+
+
+.border{
+    border-bottom: #a3daff solid 2px;
+}
