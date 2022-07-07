@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:#e9e0d6;
+    color: #e9e0d6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.4em;
+}
+b{
+    color: #400D12;
+}
+
+p{
+    line-height: 1.4em;
+    letter-spacing: 1px;
+}
+
+li{
+    letter-spacing: 1px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h2{
+    color: #00303F;
+}

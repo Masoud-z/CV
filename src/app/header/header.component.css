@@ -1,0 +1,111 @@
+.header{
+    padding: 10vh 0;
+    text-align: center;
+    background-color: #3399FF;
+    color: white;
+
+}
+
+.header h1{
+    font-size: 4em;
+    margin: 5vh 0;
+    line-height: 4rem;
+}
+
+.header p {
+    font-size: 2em;
+}
+
+.topnav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #ff0000;
+    overflow: hidden;
+    transition: all 0.3s linear;
+}
+
+.topnav:hover{
+    border: #f5ede1 solid 2px;
+}
+
+.position{
+    position: sticky;
+    top: 0;
+    position: -webkit-sticky;
+}
+
+.topnav li{
+    float: left;
+}
+
+.topnav li:last-child{
+    float: right;
+    padding-right: 4vh;
+}
+
+.topnav a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 2vh 1vw;
+    display: block;
+    transition: all 0.3s linear;
+}
+
+.topnav a:hover{
+    background-color: #df514c;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+
+@media (max-width: 500px) {
+    .topnav{
+        transition: all 1s linear;
+    }
+
+    .topnav li {
+      float: none;
+      width: 100%;
+      text-align: center;
+      transition: all 1s linear;
+    }
+    .position{
+        position: sticky;
+        top: 0;
+        position: -webkit-sticky;
+    }
+
+    .show{
+        display: none;
+        transition: all 1s linear;
+    }
+    .hide{
+        display: block;
+        transition: all 1s linear;
+    }
+
+    .topnav:hover .show{
+        display: block;
+    }
+
+    .topnav:hover .hide{
+        display: none;
+    }
+
+    .header h1{
+        font-size: 2rem;
+    }
+    .header p {
+        font-size: 1.5em;
+    }
+
+   
+  }
