@@ -10,6 +10,7 @@ import { EducationComponent } from './main/education/education.component';
 import { WorkComponent } from './main/work/work.component';
 import { LanguagesComponent } from './main/languages/languages.component';
 import { SkillsComponent } from './main/skills/skills.component';
+import { AsideComponent } from './aside/aside.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SkillsComponent } from './main/skills/skills.component';
     EducationComponent,
     WorkComponent,
     LanguagesComponent,
-    SkillsComponent
+    SkillsComponent,
+    AsideComponent
   ],
   imports: [
     BrowserModule,
