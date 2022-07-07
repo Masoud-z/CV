@@ -11,6 +11,7 @@ import { WorkComponent } from './main/work/work.component';
 import { LanguagesComponent } from './main/languages/languages.component';
 import { SkillsComponent } from './main/skills/skills.component';
 import { AsideComponent } from './aside/aside.component';
+import { AboutMeComponent } from './aside/about-me/about-me.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { AsideComponent } from './aside/aside.component';
     WorkComponent,
     LanguagesComponent,
     SkillsComponent,
-    AsideComponent
+    AsideComponent,
+    AboutMeComponent
   ],
   imports: [
     BrowserModule,
