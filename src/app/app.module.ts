@@ -9,6 +9,7 @@ import { MainComponent } from './main/main.component';
 import { EducationComponent } from './main/education/education.component';
 import { WorkComponent } from './main/work/work.component';
 import { LanguagesComponent } from './main/languages/languages.component';
+import { SkillsComponent } from './main/skills/skills.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { LanguagesComponent } from './main/languages/languages.component';
     MainComponent,
     EducationComponent,
     WorkComponent,
-    LanguagesComponent
+    LanguagesComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,

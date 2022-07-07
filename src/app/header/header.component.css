@@ -66,6 +66,26 @@
 }
 
 
+.dropdown-content{
+ background-color: #f5ede1 ;
+ position: absolute;
+ display: none;
+}
+
+.dropdown-content a{
+    color: black;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+
+.dropdown-content:hover .dropdown{
+    background-color: #df514c ;
+}
+
+
 @media (max-width: 500px) {
     .topnav{
         transition: all 1s linear;
@@ -85,11 +105,9 @@
 
     .show{
         display: none;
-        transition: all 1s linear;
     }
     .hide{
         display: block;
-        transition: all 1s linear;
     }
 
     .topnav:hover .show{
@@ -105,6 +123,11 @@
     }
     .header p {
         font-size: 1.5em;
+    }
+
+    .dropdown-content{
+        width: 100%;
+        text-align: center;
     }
 
    

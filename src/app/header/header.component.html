@@ -16,8 +16,17 @@
         <li class="show" > 
             <a (click)="onSelect('lan')">Languages</a>
         </li>
-        <li class="show" ><a href="#Skils">Skills</a></li>
+        <li class="show" >
+            <a (click)="onSelect('skills')">Skills</a>
+        </li>
         <li class="hide"><a>Menue</a></li>
-        <li class="show" ><a href="#contact">Contact</a></li>
+
+        <li class="show dropdown" ><a>About</a>
+            <div class="dropdown-content">
+                <li><a>About me</a></li>
+                <li><a>Contact</a></li>
+                <li><a>Hobies</a></li>
+            </div>
+        </li>
     </ul>
 </nav>

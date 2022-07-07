@@ -1,6 +1,4 @@
-p{
-    color: black;
-}
+
 .container{
     margin-left: 1vw;
   }
@@ -43,7 +41,7 @@ p{
     margin-top: 4vh;
     margin-right: 2vw;
     border-radius: 3px;
-    transition: all 0.3s linear;
+    transition: all 0.4s linear;
 }
 
 .card h3 {
@@ -75,3 +73,12 @@ p{
 .border{
     border-bottom: #a3daff solid 2px;
 }
+
+
+@media (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  
+  }
