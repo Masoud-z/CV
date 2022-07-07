@@ -1,0 +1,20 @@
+.small{
+    font-size: 0.6rem;
+}
+
+
+@media (max-width: 800px) {
+  
+    .small{
+        font-size: 1rem;
+    }
+  }
+
+
+  @media (max-width: 500px) {
+ 
+
+    .small{
+        font-size: 1rem;
+    }
+  }

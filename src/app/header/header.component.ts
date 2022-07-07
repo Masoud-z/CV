@@ -8,8 +8,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor(private router:Router,
-              private route:ActivatedRoute) { }
+  constructor(private router:Router) { }
 
   ngOnInit(): void {
   }
@@ -24,12 +23,15 @@ export class HeaderComponent implements OnInit {
   about(about:string){
     if(about == 'me') 
       this.router.navigate([], {queryParams:{about:'me'}});
+     
 
     if(about == 'contact') 
-      this.router.navigate([], {queryParams:{about:'contact'}});
+     this.router.navigate([], {queryParams:{about:'contact'}});
+      
 
     if(about == 'hobby') 
       this.router.navigate([], {queryParams:{about:'hobby'}});
+      
   }
 
 }
